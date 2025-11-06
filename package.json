@@ -1,0 +1,20 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "http-server . -p -3000 -c-1",
+    "dev": "concurrently \"http-server . -p 3000 --cors -o -c-1\" \"sass --watch src/sass/style.scss src/css/style.css\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "http-server": "^14.1.1"
+  },
+  "devDependencies": {
+    "concurrently": "^9.2.1"
+  }
+}
