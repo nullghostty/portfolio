@@ -1,13 +1,14 @@
-/*  
-* Style by D3NN7
-* and Patrick Hlauke (https://codepen.io/patrickhlauke/pen/YaoBop)
-*/
 @font-face {
   font-family: "Noto Sans Display";
   font-style: normal;
   font-weight: 400;
   src: url(./assets/fonts/NotoSansDisplay-Regular.ttf);
 }
+body {
+  display: grid;
+  place-items: center;
+}
+
 html::after {
   content: "";
   position: absolute;
@@ -33,11 +34,42 @@ html {
   animation-direction: alternate;
 }
 
-h1 {
-  font-size: 5em;
-  text-align: center;
+.typewriter {
+  display: inline-block;
 }
 
+h1 {
+  font-size: 5em;
+}
+
+.typewriter h1 {
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  /* Idea: Try to see if we could make an _ cursor */
+  border-right: 0.15em solid #eee; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: normal; /* Adjust as needed */
+  animation: typing 1.5s steps(20, end), blink-caret 0.75s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: #eee;
+  }
+}
 a {
   color: white;
 }
