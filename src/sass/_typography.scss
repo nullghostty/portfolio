@@ -2,6 +2,7 @@
 * Style by D3NN7
 * and Patrick Hlauke (https://codepen.io/patrickhlauke/pen/YaoBop)
 */
+
 @font-face {
   font-family: "Noto Sans Display";
   font-style: normal;
@@ -15,14 +16,15 @@ html {
   color: #eee;
   font-size: 1em;
   line-height: 1;
-  text-shadow: 0.06rem 0 0.06rem #ea36af, -0.125rem 0 0.06rem #75fa69;
+  text-shadow:
+    0.06rem 0 0.06rem #ea36af,
+    -0.125rem 0 0.06rem #75fa69;
   letter-spacing: 0.125em;
   animation-duration: 0.01s;
   animation-name: textflicker;
   animation-iteration-count: infinite;
   animation-direction: alternate;
 }
-
 h1 {
   font-size: 5em;
   text-align: center;
@@ -38,19 +40,23 @@ a {
     margin-right: 20rem;
   }
 }
+
 @media screen and (min-width: 600px) {
   body {
     margin-left: 5em;
     margin-right: 5em;
   }
 }
+
 @keyframes textflicker {
   from {
-    text-shadow: 1px 0 0 #ea36af, -2px 0 0 #75fa69;
+    text-shadow:
+      1px 0 0 #ea36af,
+      -2px 0 0 #75fa69;
   }
   to {
-    text-shadow: 2px 0.5px 2px #ea36af, -1px -0.5px 2px #75fa69;
+    text-shadow:
+      2px 0.5px 2px #ea36af,
+      -1px -0.5px 2px #75fa69;
   }
 }
-
-/*# sourceMappingURL=style.css.map */
