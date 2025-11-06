@@ -9,6 +9,22 @@
   font-weight: 400;
   src: url(./assets/fonts/NotoSansDisplay-Regular.ttf);
 }
+html::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: repeating-linear-gradient(
+    0deg,
+    rgba(black, 0.15),
+    rgba(black, 0.15) 1px,
+    transparent 1px,
+    transparent 2px
+  );
+}
+
 html {
   background: #111;
   padding: 1em;
