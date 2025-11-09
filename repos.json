@@ -1,0 +1,220 @@
+[
+  {
+    "name": ".dotfiles",
+    "languages": [
+      "Lua",
+      "Shell"
+    ]
+  },
+  {
+    "name": "3-column-preview-card-component",
+    "languages": [
+      "JavaScript",
+      "CSS",
+      "HTML"
+    ]
+  },
+  {
+    "name": "article-preview-component",
+    "languages": [
+      "SCSS",
+      "HTML"
+    ]
+  },
+  {
+    "name": "bento-grid",
+    "languages": [
+      "CSS",
+      "JavaScript",
+      "HTML"
+    ]
+  },
+  {
+    "name": "blog-preview-card",
+    "languages": [
+      "CSS",
+      "HTML"
+    ]
+  },
+  {
+    "name": "browser-extensions-manager-ui",
+    "languages": [
+      "CSS",
+      "JavaScript",
+      "HTML"
+    ]
+  },
+  {
+    "name": "dictionary-web-app",
+    "languages": [
+      "JavaScript",
+      "CSS",
+      "HTML"
+    ]
+  },
+  {
+    "name": "dotfiles",
+    "languages": [
+      "Shell",
+      "Lua"
+    ]
+  },
+  {
+    "name": "faq-accordion",
+    "languages": [
+      "HTML",
+      "SCSS"
+    ]
+  },
+  {
+    "name": "four-card-feature-section",
+    "languages": [
+      "CSS",
+      "TypeScript",
+      "JavaScript",
+      "HTML"
+    ]
+  },
+  {
+    "name": "github-user-search-app",
+    "languages": [
+      "CSS",
+      "JavaScript",
+      "HTML"
+    ]
+  },
+  {
+    "name": "interactive-rating-component",
+    "languages": [
+      "HTML",
+      "SCSS"
+    ]
+  },
+  {
+    "name": "news-homepage-app",
+    "languages": [
+      "CSS",
+      "JavaScript",
+      "HTML"
+    ]
+  },
+  {
+    "name": "nft-preview-card-component",
+    "languages": [
+      "CSS",
+      "HTML"
+    ]
+  },
+  {
+    "name": "nullghostty",
+    "languages": []
+  },
+  {
+    "name": "nullghostty-portfolio",
+    "languages": [
+      "HTML",
+      "SCSS",
+      "JavaScript"
+    ]
+  },
+  {
+    "name": "password-generator-app",
+    "languages": [
+      "JavaScript",
+      "CSS",
+      "HTML"
+    ]
+  },
+  {
+    "name": "ping-coming-soon-page",
+    "languages": [
+      "CSS",
+      "HTML",
+      "JavaScript"
+    ]
+  },
+  {
+    "name": "portfolio",
+    "languages": [
+      "HTML"
+    ]
+  },
+  {
+    "name": "product-preview-card-component",
+    "languages": [
+      "CSS",
+      "TypeScript",
+      "HTML",
+      "JavaScript"
+    ]
+  },
+  {
+    "name": "pysnake",
+    "languages": [
+      "Python"
+    ]
+  },
+  {
+    "name": "qr-code-component",
+    "languages": [
+      "SCSS",
+      "HTML"
+    ]
+  },
+  {
+    "name": "recipe-page",
+    "languages": [
+      "HTML",
+      "SCSS"
+    ]
+  },
+  {
+    "name": "single-price-grid-component",
+    "languages": [
+      "SCSS",
+      "HTML"
+    ]
+  },
+  {
+    "name": "skills-introduction-to-github",
+    "languages": []
+  },
+  {
+    "name": "social-links-profile",
+    "languages": [
+      "HTML",
+      "CSS"
+    ]
+  },
+  {
+    "name": "social-media-dashboard-with-theme-switcher",
+    "languages": [
+      "CSS",
+      "HTML",
+      "JavaScript",
+      "TypeScript"
+    ]
+  },
+  {
+    "name": "stats-preview-card-component",
+    "languages": [
+      "SCSS",
+      "HTML"
+    ]
+  },
+  {
+    "name": "testimonials-grid-section",
+    "languages": [
+      "CSS",
+      "HTML",
+      "JavaScript"
+    ]
+  },
+  {
+    "name": "vim-wizards",
+    "languages": [
+      "Python",
+      "Shell"
+    ]
+  }
+]

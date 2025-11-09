@@ -1,2 +1,4 @@
 node_modules/
 crt-css/
+.env
+src/js/api.js   
