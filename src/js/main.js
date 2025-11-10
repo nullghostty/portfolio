@@ -4,6 +4,7 @@ async function loadReposJSON() {
 
     repos.forEach((repo) => {
         const repoContainer = document.createElement(`div`);
+        const repoImage = document.createElement(`img`);
         const repoName = document.createElement(`h2`);
         const repoLangs = document.createDocumentFragment();
 
@@ -12,8 +13,10 @@ async function loadReposJSON() {
             span.innerText = lang;
             repoLangs.appendChild(span);
         });
-
+        
+        repoImage.src = repo.image;
         repoName.innerText = repo.name;
+        repoContainer.appendChild(repoImage);
         repoContainer.appendChild(repoName);
         repoContainer.appendChild(repoLangs);
         document.body.appendChild(repoContainer);

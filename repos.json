@@ -1,5 +1,6 @@
 [
   {
+    "image": "path/to/fallback-image.jpg",
     "name": ".dotfiles",
     "languages": [
       "Lua",
@@ -7,6 +8,7 @@
     ]
   },
   {
+    "image": "https://raw.githubusercontent.com/nullghostty/3-column-preview-card-component/main/design/desktop-design.jpg",
     "name": "3-column-preview-card-component",
     "languages": [
       "JavaScript",
@@ -15,6 +17,7 @@
     ]
   },
   {
+    "image": "https://raw.githubusercontent.com/nullghostty/article-preview-component/main/design/desktop-design.jpg",
     "name": "article-preview-component",
     "languages": [
       "SCSS",
@@ -22,6 +25,7 @@
     ]
   },
   {
+    "image": "https://raw.githubusercontent.com/nullghostty/bento-grid/main/design/desktop-design.jpg",
     "name": "bento-grid",
     "languages": [
       "CSS",
@@ -30,6 +34,7 @@
     ]
   },
   {
+    "image": "https://raw.githubusercontent.com/nullghostty/blog-preview-card/main/design/desktop-design.jpg",
     "name": "blog-preview-card",
     "languages": [
       "CSS",
@@ -37,6 +42,7 @@
     ]
   },
   {
+    "image": "path/to/fallback-image.jpg",
     "name": "browser-extensions-manager-ui",
     "languages": [
       "CSS",
@@ -45,6 +51,7 @@
     ]
   },
   {
+    "image": "path/to/fallback-image.jpg",
     "name": "dictionary-web-app",
     "languages": [
       "JavaScript",
@@ -53,6 +60,7 @@
     ]
   },
   {
+    "image": "path/to/fallback-image.jpg",
     "name": "dotfiles",
     "languages": [
       "Shell",
@@ -60,13 +68,16 @@
     ]
   },
   {
+    "image": "https://raw.githubusercontent.com/nullghostty/faq-accordion/main/design/desktop-design.jpg",
     "name": "faq-accordion",
     "languages": [
       "HTML",
+      "JavaScript",
       "SCSS"
     ]
   },
   {
+    "image": "path/to/fallback-image.jpg",
     "name": "four-card-feature-section",
     "languages": [
       "CSS",
@@ -76,6 +87,7 @@
     ]
   },
   {
+    "image": "path/to/fallback-image.jpg",
     "name": "github-user-search-app",
     "languages": [
       "CSS",
@@ -84,6 +96,7 @@
     ]
   },
   {
+    "image": "https://raw.githubusercontent.com/nullghostty/interactive-rating-component/main/design/desktop-design.jpg",
     "name": "interactive-rating-component",
     "languages": [
       "HTML",
@@ -91,6 +104,7 @@
     ]
   },
   {
+    "image": "https://raw.githubusercontent.com/nullghostty/news-homepage-app/main/design/desktop-design.jpg",
     "name": "news-homepage-app",
     "languages": [
       "CSS",
@@ -99,6 +113,7 @@
     ]
   },
   {
+    "image": "https://raw.githubusercontent.com/nullghostty/nft-preview-card-component/main/design/desktop-design.jpg",
     "name": "nft-preview-card-component",
     "languages": [
       "CSS",
@@ -106,10 +121,12 @@
     ]
   },
   {
+    "image": "path/to/fallback-image.jpg",
     "name": "nullghostty",
     "languages": []
   },
   {
+    "image": "path/to/fallback-image.jpg",
     "name": "nullghostty-portfolio",
     "languages": [
       "HTML",
@@ -118,6 +135,7 @@
     ]
   },
   {
+    "image": "path/to/fallback-image.jpg",
     "name": "password-generator-app",
     "languages": [
       "JavaScript",
@@ -126,6 +144,7 @@
     ]
   },
   {
+    "image": "https://raw.githubusercontent.com/nullghostty/ping-coming-soon-page/main/design/desktop-design.jpg",
     "name": "ping-coming-soon-page",
     "languages": [
       "CSS",
@@ -134,12 +153,15 @@
     ]
   },
   {
+    "image": "path/to/fallback-image.jpg",
     "name": "portfolio",
     "languages": [
+      "JavaScript",
       "HTML"
     ]
   },
   {
+    "image": "path/to/fallback-image.jpg",
     "name": "product-preview-card-component",
     "languages": [
       "CSS",
@@ -149,12 +171,14 @@
     ]
   },
   {
+    "image": "path/to/fallback-image.jpg",
     "name": "pysnake",
     "languages": [
       "Python"
     ]
   },
   {
+    "image": "https://raw.githubusercontent.com/nullghostty/qr-code-component/main/design/desktop-design.jpg",
     "name": "qr-code-component",
     "languages": [
       "SCSS",
@@ -162,6 +186,7 @@
     ]
   },
   {
+    "image": "https://raw.githubusercontent.com/nullghostty/recipe-page/main/design/desktop-design.jpg",
     "name": "recipe-page",
     "languages": [
       "HTML",
@@ -169,6 +194,7 @@
     ]
   },
   {
+    "image": "https://raw.githubusercontent.com/nullghostty/single-price-grid-component/main/design/desktop-design.jpg",
     "name": "single-price-grid-component",
     "languages": [
       "SCSS",
@@ -176,10 +202,12 @@
     ]
   },
   {
+    "image": "path/to/fallback-image.jpg",
     "name": "skills-introduction-to-github",
     "languages": []
   },
   {
+    "image": "path/to/fallback-image.jpg",
     "name": "social-links-profile",
     "languages": [
       "HTML",
@@ -187,6 +215,7 @@
     ]
   },
   {
+    "image": "path/to/fallback-image.jpg",
     "name": "social-media-dashboard-with-theme-switcher",
     "languages": [
       "CSS",
@@ -196,6 +225,7 @@
     ]
   },
   {
+    "image": "https://raw.githubusercontent.com/nullghostty/stats-preview-card-component/main/design/desktop-design.jpg",
     "name": "stats-preview-card-component",
     "languages": [
       "SCSS",
@@ -203,6 +233,7 @@
     ]
   },
   {
+    "image": "https://raw.githubusercontent.com/nullghostty/testimonials-grid-section/main/design/desktop-design.jpg",
     "name": "testimonials-grid-section",
     "languages": [
       "CSS",
@@ -211,6 +242,7 @@
     ]
   },
   {
+    "image": "path/to/fallback-image.jpg",
     "name": "vim-wizards",
     "languages": [
       "Python",
