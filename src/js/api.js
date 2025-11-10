@@ -26,6 +26,23 @@ const fs = require(`fs`).promises;
 
 const token = process.env.TOKEN;
 
+const fetchRepoImages = async (repoName) => {
+    const imageUrl = `https://raw.githubusercontent.com/nullghostty/${repoName}/main/design/desktop-design.jpg`;
+    try {
+        const res = await fetch(imageUrl);
+        if (res.ok) {
+            // Image exists, return the URL
+            return imageUrl;
+        } else {
+            // Image doesn't exist (404), return fallback
+            return "path/to/fallback-image.jpg";
+        }
+    } catch (err) {
+        console.error(`Error fetching image: ${err}`);
+        return "path/to/fallback-image.jpg";
+    }
+};
+
 const fetchRepoLanguages = async (repoName) => {
     const res = await fetch(
         `https://api.github.com/repos/nullghostty/${repoName}/languages`,
@@ -53,6 +70,7 @@ const fetchRepos = async () => {
     const reposJson = await Promise.all(
         repos.map(async (repo) => {
             return {
+                image: await fetchRepoImages(repo.name),
                 name: repo.name,
                 languages: await fetchRepoLanguages(repo.name),
             };
